@@ -34,6 +34,7 @@ p {
   font-size: 50px;
   color: white;
 }
+
 `
 
 class Main extends Component{
@@ -44,8 +45,10 @@ class Main extends Component{
         <Titulo className="title">
         <h1>Desarrollador Frontend</h1>
         <p>Jhonatan Quirama Pino</p>
+        
         </Titulo>
         </Section1>
+        
         </main>
         )
     }
