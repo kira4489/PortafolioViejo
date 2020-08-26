@@ -1,0 +1,36 @@
+import React, { Component } from 'react'
+import "../Section1/About.css"
+import foto from "../../images/me.jpg"
+
+class About extends Component{
+    render(){
+        return(
+            <section className="profile" id="sobremi">
+            <img src={foto} className="imagen"/>
+            <p className="texto3">Jhonatan quirama pino</p>
+            <div className="texto">
+              <p className="texto2">
+                Mi nombre es Jhonatan Quirama Pino tengo 27 años soy Tecnologo en
+                gestion de redes de datos y Tecnico laboral en desarrollo de
+                software apasionado con la informatica y la programacion, Mi otra
+                pasion es jugar videojuegos. Tengo 3 meses de experiencia en
+                desarrollo de paginas web y espero volver a comenzar hacer proyectos
+                me encanta mucho...
+              </p>
+              <br />
+              <br />
+              <p className="texto2">
+                En mis tiempos libres me gusta jugar videojuegos,hacer ejercicio,
+                salir con amigos,leer,estudiar y compartir con mi familia.
+              </p>
+              <a href="./pdf/jhonatan.pdf" target="blank"
+                >Descargue mi hoja de vida</a
+              >
+            </div>
+          </section>
+        )
+    }
+    
+}
+
+export default About

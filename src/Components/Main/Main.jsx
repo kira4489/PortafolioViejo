@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import About from "../Section1/About";
+import Project from "../Section2/Project";
 import "../Main/Main.css"
 // import styled from 'styled-components'
 /**el ultimo elemnto la etiqueta de html */
@@ -42,14 +44,15 @@ class Main extends Component{
     render(){
         return(
         <main>
-        <section className="imagen" id="welcome-section">
+        <section className="imagen" id="inicio">
         <div className="title">
         <h1>Desarrollador Frontend</h1>
         <p>Jhonatan Quirama Pino</p>
         
         </div>
         </section>
-        
+        <About/>
+        <Project/>
         </main>
         )
     }
