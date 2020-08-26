@@ -1,0 +1,23 @@
+#navbar{
+  width: 100%;
+  z-index: 999;
+}
+
+#navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  display: inline-block;
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+}
