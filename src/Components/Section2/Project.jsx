@@ -5,7 +5,7 @@ import Proyecto2 from "../../images/surveyform.jpg";
 import Proyecto3 from "../../images/landinpage.jpg";
 import Proyecto4 from "../../images/documentpage.jpg";
 
-class Project extends Component{
+export default class Project extends Component{
     render(){
         return(
             <div className="proyectos" id="projects">
@@ -57,4 +57,3 @@ class Project extends Component{
     }
 }
 
-export default Project

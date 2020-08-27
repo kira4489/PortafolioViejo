@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import About from "../Section1/About";
 import Project from "../Section2/Project";
 import "../Main/Main.css"
+import Contact from '../Section3/Contact';
 // import styled from 'styled-components'
 /**el ultimo elemnto la etiqueta de html */
 // const Section1= styled.section`
@@ -53,6 +54,7 @@ class Main extends Component{
         </section>
         <About/>
         <Project/>
+        <Contact/>
         </main>
         )
     }
