@@ -46,7 +46,7 @@ export default class Project extends Component{
                   <picture>
                     <img src={Proyecto4}/>
                     <a href="https://cocky-allen-c1d816.netlify.app/" target="_blank"
-                      >document page</a
+                      >document pages</a
                     >
                   </picture>
                 </div>
