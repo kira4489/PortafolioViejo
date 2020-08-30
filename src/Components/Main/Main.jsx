@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import About from "../Section1/About";
 import Project from "../Section2/Project";
-import "../Main/Main.css"
-import Contact from '../Section3/Contact';
+import "../Main/Main.css";
+import Contact from "../Section3/Contact";
 // import styled from 'styled-components'
 /**el ultimo elemnto la etiqueta de html */
 // const Section1= styled.section`
@@ -41,24 +41,22 @@ import Contact from '../Section3/Contact';
 
 // `
 
-class Main extends Component{
-    render(){
-        return(
-        <main>
+class Main extends Component {
+  render() {
+    return (
+      <main>
         <section className="imagen" id="inicio">
-        <div className="title">
-        <h1>Desarrollador Frontend</h1>
-        <p>Jhonatan Quirama Pino</p>
-        
-        </div>
+          <div className="title">
+            <h1>Desarrollador Frontend</h1>
+            <p>Jhonatan Quirama Pino</p>
+          </div>
         </section>
-        <About/>
-        <Project/>
-        <Contact/>
-        </main>
-        )
-    }
-    
+        <About />
+        <Project />
+        <Contact />
+      </main>
+    );
+  }
 }
 
-export default Main
+export default Main;
