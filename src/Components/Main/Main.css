@@ -49,6 +49,7 @@
 
   .skill {
     padding: 10px;
+    
 }
 
 .skill>.fab {
@@ -60,3 +61,4 @@
   font-weight: 400;
   /* font-size: 180px; */
 }
+
