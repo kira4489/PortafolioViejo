@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import About from "../Section1/About";
-import Project from "../Section2/Project";
-import "../Main/Main.css";
-import Contact from "../Section3/Contact";
+import About from "../About/About";
+import Project from "../Projects/Project";
+import "./Main.css";
+import Contact from "../Contact/Contact";
 // import styled from 'styled-components'
 /**el ultimo elemnto la etiqueta de html */
 // const Section1= styled.section`

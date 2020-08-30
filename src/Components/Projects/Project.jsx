@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Section2/Project.css";
+import "./Project.css";
 import Proyecto1 from "../../images/tributo.jpg";
 import Proyecto2 from "../../images/surveyform.jpg";
 import Proyecto3 from "../../images/landinpage.jpg";

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../Header/Header.css"
+import "./Header.css"
 // import styled from 'styled-components'
 //import "../css/Header.css";
 
