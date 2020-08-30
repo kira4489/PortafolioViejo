@@ -7,7 +7,7 @@ class About extends Component{
         return(
             <section className="profile" id="sobremi">
             <img src={foto} className="imagen"/>
-            <p className="texto3">Jhonatan quirama pino</p>
+            <p className="texto3">Jhonatan Quirama Pino</p>
             <div className="texto">
               <p className="texto2">
                 Mi nombre es Jhonatan Quirama Pino tengo 27 años soy Tecnologo en
@@ -20,7 +20,7 @@ class About extends Component{
               <br />
               <br />
               <p className="texto2">
-                En mis tiempos libres me gusta jugar videojuegos,hacer ejercicio,
+                En mi tiempo libre me gusta jugar videojuegos,hacer ejercicio,
                 salir con amigos,leer,estudiar y compartir con mi familia.
               </p>
               <a href="./pdf/jhonatan.pdf" target="blank"
