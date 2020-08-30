@@ -32,7 +32,7 @@ class Header extends Component{
             <nav id="navbar">
               <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobremi">SobreMi</a></li>
+                <li><a href="#sobremi">Sobremi</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
               </ul>

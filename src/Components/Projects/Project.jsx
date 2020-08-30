@@ -4,6 +4,8 @@ import Proyecto1 from "../../images/tributo.jpg";
 import Proyecto2 from "../../images/surveyform.jpg";
 import Proyecto3 from "../../images/landinpage.jpg";
 import Proyecto4 from "../../images/documentpage.jpg";
+import Proyecto5 from "../../images/landing-podcast.jpg";
+import Proyecto6 from "../../images/challenge.jpg"
 import Array from "./Array";
 
 export default class Project extends Component {
@@ -12,34 +14,34 @@ export default class Project extends Component {
     this.state = {
       cards: [
         {
-          titulo: "tribute page",
+          titulo: "Tribute page",
           imagen: Proyecto1,
           link: "https://blissful-murdock-638985.netlify.app/",
         },
         {
-          titulo: "survey form",
+          titulo: "Survey form",
           imagen: Proyecto2,
           link: "https://hardcore-goldberg-1a390b.netlify.app/",
         },
         {
-          titulo: "landing page",
+          titulo: "Landing page",
           imagen: Proyecto3,
           link: "https://vigorous-dijkstra-2c8cb5.netlify.app/",
         },
         {
-          titulo: "document pages",
+          titulo: "Document pages",
           imagen: Proyecto4,
           link: "https://cocky-allen-c1d816.netlify.app/",
         },
         {
-          titulo: "document pages",
-          imagen: Proyecto4,
-          link: "https://cocky-allen-c1d816.netlify.app/",
+          titulo: "Landing podcast",
+          imagen: Proyecto5,
+          link: "https://modest-blackwell-7529ee.netlify.app/",
         },
         {
-          titulo: "document pages",
-          imagen: Proyecto4,
-          link: "https://cocky-allen-c1d816.netlify.app/",
+          titulo: "Challenge",
+          imagen: Proyecto6,
+          link: "https://eloquent-dubinsky-a02ef0.netlify.app/",
         }
       ]
     } 
