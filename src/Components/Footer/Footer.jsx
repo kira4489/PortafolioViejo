@@ -9,17 +9,18 @@ class Footer extends Component{
               <div className="redes-footer">
                 <a
                   href="https://www.facebook.com/jhonatan.quiramapino"
-                  target="_blank"
+                  target="_blank noopener noreferrer"
                 >
                   <i className="fab fa-facebook-f icon-redes-footer"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/jhonatan-quirama-pino-289096179/"
-                  target="blank"
+                  target="blank noopener noreferrer"
                 >
                   <i className="fab fa-linkedin icon-redes-footer"></i>
                 </a>
-                <a href="https://github.com/kira4489">
+                <a href="https://github.com/kira4489"
+                target="_blank noopener noreferrer">
                   <i className="fab fa-github icon-redes-footer"></i>
                 </a>
               </div>

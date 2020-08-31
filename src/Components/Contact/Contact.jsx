@@ -10,16 +10,16 @@ class Contact extends Component{
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi maxime maiores qui, ipsam quibusdam eos, obcaecati nulla, vitae molestias neque inventore repellat veritatis iusto nemo aliquam aliquid possimus! Aut, officiis?</p>
             </div>
             <div className="redes">
-              <a href="https://www.facebook.com/jhonatan.quiramapino/" target="_blank"
+              <a href="https://www.facebook.com/jhonatan.quiramapino/" target="_blank noopener noreferrer"
               ><i className="fab fa-facebook-f "></i
             >facebook</a>
-            <a href="https://jhonatan-quirama-pino-289096179" target="_blank"
+            <a href="https://jhonatan-quirama-pino-289096179" target="_blank noopener noreferrer"
               ><i className="fab fa-linkedin "></i
             >linkedin</a>
-            <a href="https://twitter.com/jhonatan0090" target="_blank"
+            <a href="https://twitter.com/jhonatan0090" target="_blank noopener noreferrer"
             ><i className="fab fa-twitter "></i
           >twitter</a>
-            <a href="https://github.com/kira4489" target="_blank"
+            <a href="https://github.com/kira4489" target="_blank noopener noreferrer"
               ><i className="fab fa-github  project-link"></i
             >github</a>
             </div>

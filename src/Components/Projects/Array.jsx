@@ -8,7 +8,7 @@ export default function Array(props) {
           <img src={props.imagen}/>
           <a
             href={props.link}
-            target="_blank"
+            target="_blank noopener noreferrer"
           >
             {props.titulo}
           </a>
