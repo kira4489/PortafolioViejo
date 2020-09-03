@@ -1,44 +1,44 @@
 .profile img {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    margin: 0 auto;
-    /* margin-top: 40px; */
-    display: block;
-  }
-  
-  .profile {
-    padding: 70px;
-    background-color: darkgray;
-  }
-  
-  .texto2 {
-    font-size: 20px;
-    color: #000;
-    /* text-align: justify; */
-    margin: 0 auto;
-    width: 45%;
-  }
-  
-  .texto3 {
-    text-align: center;
-    width: 70%;
-    padding-bottom: 20px;
-    font-size: 30px;
-    border-bottom: 0.5px solid #fff;
-    margin: 10px auto 40px;
-  }
-  
-  .texto {
-    position: relative;
-    text-align: center;
-  }
-  
-  .texto a {
-    text-decoration: none;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    color: blue;
-    margin-top: 50px;
-  }
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 0 auto;
+  /* margin-top: 40px; */
+  display: block;
+}
+
+.profile {
+  padding: 70px;
+  background-color: darkgray;
+}
+
+.texto2 {
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+  margin: 0 auto;
+  width: 45%;
+}
+
+.texto3 {
+  text-align: center;
+  width: 70%;
+  padding-bottom: 20px;
+  font-size: 30px;
+  border-bottom: 0.5px solid #fff;
+  margin: 10px auto 40px;
+}
+
+.texto {
+  position: relative;
+  text-align: center;
+}
+
+.texto a {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: blue;
+  margin-top: 50px;
+}

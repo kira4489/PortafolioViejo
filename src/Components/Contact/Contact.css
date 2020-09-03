@@ -1,58 +1,58 @@
 .formulario {
-    padding: 70px;
-    margin-top: 10px;
-  }
-  
-  .formulario1 h2 {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .formulario p {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-  }
-  
-  .formulario .fa-facebook-f {
-    background: #3b5998;
-    color: white;
-    padding: 20px;
-  }
-  
-  .formulario .fa-twitter {
-    background: #55acee;
-    color: white;
-    padding: 20px;
-  }
-  
-  .formulario .fa-github {
-    background: #125688;
-    color: white;
-    padding: 20px;
-  }
-  
-  .formulario .fa-linkedin {
-    background: #0077b5;
-    color: white;
-    padding: 20px;
-  }
-  
-  .redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 50px;
-    flex-wrap: wrap;
-  }
-  
-  .redes a {
-    padding: 50px;
-    text-decoration: none;
-    color: #000;
-    text-transform: capitalize;
-  }
-  
-  .redes i {
-    margin-right: 10px;
-  }
+  padding: 70px;
+  margin-top: 10px;
+}
+
+.formulario1 h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario p {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.formulario .fa-facebook-f {
+  background: #3b5998;
+  color: white;
+  padding: 20px;
+}
+
+.formulario .fa-twitter {
+  background: #55acee;
+  color: white;
+  padding: 20px;
+}
+
+.formulario .fa-github {
+  background: #125688;
+  color: white;
+  padding: 20px;
+}
+
+.formulario .fa-linkedin {
+  background: #0077b5;
+  color: white;
+  padding: 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.redes a {
+  padding: 50px;
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.redes i {
+  margin-right: 10px;
+}
