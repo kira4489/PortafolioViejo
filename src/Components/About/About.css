@@ -15,7 +15,7 @@
   .texto2 {
     font-size: 20px;
     color: #000;
-    text-align: justify;
+    /* text-align: justify; */
     margin: 0 auto;
     width: 45%;
   }
@@ -25,7 +25,7 @@
     width: 70%;
     padding-bottom: 20px;
     font-size: 30px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 0.5px solid #fff;
     margin: 10px auto 40px;
   }
   
