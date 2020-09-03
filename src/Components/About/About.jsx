@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "./About.css"
 import foto from "../../images/me.jpg"
+import jhonatan from "../../pdf/jhonatan.pdf";
 
 class About extends Component{
     render(){
@@ -23,8 +24,7 @@ class About extends Component{
                 En mi tiempo libre me gusta jugar videojuegos,hacer ejercicio,
                 salir con amigos,leer,estudiar y compartir con mi familia.
               </p>
-              <a href="./pdf/jhonatan.pdf" target="blank"
-                >Descargue mi hoja de vida</a
+              <a href={jhonatan} target="_blank">Descargue mi hoja de vida</a
               >
             </div>
           </section>
