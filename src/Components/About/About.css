@@ -3,12 +3,12 @@
     height: 300px;
     border-radius: 150px;
     margin: 0 auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: block;
   }
   
   .profile {
-    padding: 80px;
+    padding: 70px;
     background-color: darkgray;
   }
   
