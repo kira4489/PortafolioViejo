@@ -6,7 +6,7 @@ import jhonatan from "../../pdf/jhonatan.pdf";
 class About extends Component{
     render(){
         return(
-            <section className="profile" id="sobremi">
+            <section className="perfil" id="sobremi">
             <img src={foto} className="imagen"/>
             <p className="texto3">Jhonatan Quirama Pino</p>
             <div className="texto">

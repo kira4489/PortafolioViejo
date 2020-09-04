@@ -1,4 +1,4 @@
-.profile img {
+.perfil img {
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -7,7 +7,7 @@
   display: block;
 }
 
-.profile {
+.perfil {
   padding: 70px;
   background-color: darkgray;
 }
