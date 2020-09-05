@@ -9,12 +9,12 @@
 
 .perfil {
   padding: 70px;
-  background-color: darkgray;
+  background-color: #000;
 }
 
 .texto2 {
   font-size: 20px;
-  color: #000;
+  color: #ffffff;
   text-align: left;
   margin: 0 auto;
   width: 45%;
@@ -24,6 +24,7 @@
   text-align: center;
   width: 70%;
   padding-bottom: 20px;
+  color: #fff;
   font-size: 30px;
   border-bottom: 0.5px solid #fff;
   margin: 10px auto 40px;
