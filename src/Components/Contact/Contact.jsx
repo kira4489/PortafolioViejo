@@ -4,26 +4,22 @@ import "./Contact.css"
 class Contact extends Component{
     render(){
         return(
-            <section className="formulario">
-            <div className="formulario1" id="contacto">
-              <h2>Vamos a trajar juntos</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi maxime maiores qui, ipsam quibusdam eos, obcaecati nulla, vitae molestias neque inventore repellat veritatis iusto nemo aliquam aliquid possimus! Aut, officiis?</p>
-            </div>
-            <div className="redes">
-              <a href="https://www.facebook.com/jhonatan.quiramapino/" target="_blank noopener noreferrer"
-              ><i className="fab fa-facebook-f "></i
-            >facebook</a>
-            <a href="https://jhonatan-quirama-pino-289096179" target="_blank noopener noreferrer"
-              ><i className="fab fa-linkedin "></i
-            >linkedin</a>
-            <a href="https://twitter.com/jhonatan0090" target="_blank noopener noreferrer"
-            ><i className="fab fa-twitter "></i
-          >twitter</a>
-            <a href="https://github.com/kira4489" target="_blank noopener noreferrer"
-              ><i className="fab fa-github  project-link"></i
-            >github</a>
-            </div>
-          </section>
+      <section className="formulario">
+      <div className="formulario1" id="contacto">
+        <h2>Vamos a trajar juntos</h2>
+        <form>
+  <div className="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+  </div>
+  <div className="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" className="form-control" id="exampleInputPassword1"/>
+  </div>
+  <button type="submit" className="btn btn-primary">Submit</button>
+</form>
+</div>
+</section>
         )
     }
     
