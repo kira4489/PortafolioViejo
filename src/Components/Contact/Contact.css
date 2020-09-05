@@ -1,10 +1,12 @@
 .formulario {
   padding: 70px;
   margin-top: 10px;
+  margin-bottom: 60px;
 }
 
 .formulario1 h2 {
   display: flex;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -14,46 +16,30 @@
   margin-top: 100px;
 }
 
-.formulario .fa-facebook-f {
-  background: #3b5998;
+form {
+  margin-top: 60px;
+  display: block;
+  max-width: 30%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
   color: white;
-  padding: 20px;
 }
 
-.formulario .fa-twitter {
-  background: #55acee;
-  color: white;
-  padding: 20px;
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
-.formulario .fa-github {
-  background: #125688;
-  color: white;
-  padding: 20px;
+label{
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 5px;
 }
-
-.formulario .fa-linkedin {
-  background: #0077b5;
-  color: white;
-  padding: 20px;
-}
-
-.redes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 50px;
-  flex-wrap: wrap;
-}
-
-.redes a {
-  padding: 50px;
-  text-decoration: none;
-  color: #000;
-  text-transform: capitalize;
-}
-
-.redes i {
-  margin-right: 10px;
-}
-
