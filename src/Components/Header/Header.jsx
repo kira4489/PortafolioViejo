@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import "./Header.css"
+import React, { Component } from "react";
+import "./Header.css";
 // import styled from 'styled-components'
 //import "../css/Header.css";
 
@@ -25,22 +25,29 @@ import "./Header.css"
 //   text-decoration: none;
 // }
 // `
-class Header extends Component{
-    render(){
-        return(
-            <header>
-            <nav id="navbar">
-              <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobremi">Sobremi</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-              </ul>
-            </nav>
-          </header>
-        )
-    }
-    
+class Header extends Component {
+  render() {
+    return (
+      <header>
+        <nav id="navbar">
+          <ul>
+            <li>
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+              <a href="#sobremi">Sobremi</a>
+            </li>
+            <li>
+              <a href="#projects">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    );
+  }
 }
 
-export default Header
+export default Header;
