@@ -5,7 +5,7 @@ class Footer extends Component{
         return(
             <footer>
             <div className="titulo1">
-              <p>© Jhonatan Quirama Pino</p>
+              <p>© 2020 - Hecho por Jhonatan Quirama Pino </p>
               <div className="redes-footer">
                 <a
                   href="https://www.facebook.com/jhonatan.quiramapino"
