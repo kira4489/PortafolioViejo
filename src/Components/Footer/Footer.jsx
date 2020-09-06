@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Footer.css"
 class Footer extends Component{
     render(){
@@ -11,17 +12,20 @@ class Footer extends Component{
                   href="https://www.facebook.com/jhonatan.quiramapino"
                   target="_blank noopener noreferrer"
                 >
-                  <i className="fab fa-facebook-f icon-redes-footer"></i>
+                  <i className='icon-redes-footer' href='https://standardjs.com/' target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={['fab', 'facebook']} /></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/jhonatan-quirama-pino-289096179/"
                   target="blank noopener noreferrer"
                 >
-                  <i className="fab fa-linkedin icon-redes-footer"></i>
+                   <i className='icon-redes-footer' href='https://standardjs.com/' target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={['fab', 'linkedin']} /></i>
                 </a>
                 <a href="https://github.com/kira4489"
                 target="_blank noopener noreferrer">
-                  <i className="fab fa-github icon-redes-footer"></i>
+                  <i className='icon-redes-footer' href='https://standardjs.com/' target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={['fab', 'github']} /></i>
                 </a>
               </div>
             </div>
