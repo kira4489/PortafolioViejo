@@ -4,7 +4,7 @@
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   font-size: 20px;
@@ -28,7 +28,7 @@
 
 .redes-footer i {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .icon-redes-footer {
