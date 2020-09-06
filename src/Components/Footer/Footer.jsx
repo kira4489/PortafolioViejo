@@ -32,7 +32,6 @@ class Footer extends Component{
           </footer>
         )
     }
-    
 }
 
 export default Footer

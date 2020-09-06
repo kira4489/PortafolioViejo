@@ -30,7 +30,6 @@ class About extends Component{
           </section>
         )
     }
-    
 }
 
 export default About
