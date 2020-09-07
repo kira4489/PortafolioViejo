@@ -40,7 +40,7 @@
   font-size: 20px;
   display: block;
   margin: 0 auto;
-  width: 15%;
+  max-width: 20%;
   background-color: #ffa500;
   border: 1px solid #ffa500;
   color: white;
@@ -74,4 +74,13 @@
   .texto2 {
     width: 95%;
   }
+  .texto a{
+    width: 20%;
+}
+}
+
+@media (min-width:400px){
+  .texto a{
+    width: 20%;
+}
 }

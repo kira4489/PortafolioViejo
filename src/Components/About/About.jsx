@@ -24,7 +24,7 @@ class About extends Component{
                 En mi tiempo libre me gusta jugar videojuegos,hacer ejercicio,
                 salir con amigos,leer,estudiar y compartir con mi familia.
               </p>
-              <a href={jhonatan} target="_blank">Descargue mi hoja de vida</a
+              <a className="link" href={jhonatan} target="_blank">Descargue mi hoja de vida</a
               >
             </div>
           </section>
