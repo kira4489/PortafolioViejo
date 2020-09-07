@@ -19,14 +19,14 @@
 form {
   margin-top: 60px;
   display: block;
-  max-width: 30%;
+  max-width: 40%;
   margin: 0 auto;
   background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
 .form-group {
   margin-bottom: 1rem;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: block;
   color: white;
@@ -42,4 +42,10 @@ label{
   display: inline-block;
   margin-top: 8px;
   margin-bottom: 5px;
+}
+
+@media (min-width:400px){
+  form{
+ width: 150%;
+}
 }
