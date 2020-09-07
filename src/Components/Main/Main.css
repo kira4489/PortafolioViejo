@@ -62,5 +62,20 @@
   /* font-size: 180px; */
 }
 
-
-  
+@media (max-width: 500px) {
+  .title h1 {
+    font-size: 40px;
+  }
+  .title p {
+    font-size: 30px;
+  }
+  .skill > .fab {
+    font-size: 1.5em;
+  }
+  .titulo1 p {
+    margin: 0 auto;
+  }
+  .redes-footer {
+    margin: 0 auto;
+  }
+}

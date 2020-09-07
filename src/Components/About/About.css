@@ -46,3 +46,32 @@
   color: white;
   margin-top: 50px;
 }
+
+@media (max-width: 1600px) {
+  .descargar {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .descargar {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .parrafo {
+    margin-top: 5px;
+  }
+  .descargar {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .texto2 {
+    width: 95%;
+  }
+}
