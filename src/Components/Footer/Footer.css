@@ -36,5 +36,9 @@
   padding: 18px;
 }
 
-
+@media (max-width: 500px){
+.titulo1 p {
+    margin-left: 10px;
+}
+}
 
