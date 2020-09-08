@@ -10,11 +10,11 @@ class Contact extends Component{
         <form>
   <div className="form-group">
     <label for="exampleInputEmail1">Nombre</label>
-    <input type="text" className="form-control" placeholder="Escriba tu nombre" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="text" className="form-control" placeholder="Escriba tu nombre" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
   </div>
   <div className="form-group">
     <label for="exampleInputEmail1">Email</label>
-    <input type="email" className="form-control" placeholder="Escriba tu email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="email" className="form-control" placeholder="Escriba tu email" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
   </div>
   <div className="form-group">
     <label for="exampleInputPassword1">Mensaje</label>
