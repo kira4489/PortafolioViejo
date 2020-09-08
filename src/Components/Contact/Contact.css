@@ -44,14 +44,14 @@ label{
   margin-bottom: 5px;
 }
 
-@media (max-width:775px){
+/* @media (max-width:775px){
   form{
  max-width: 60%;
 }
-}
+} */
 
-@media (min-width:575px){
+@media (max-width:575px){
   form{
- max-width: 80%;
+ width: 80%;
 }
 }
