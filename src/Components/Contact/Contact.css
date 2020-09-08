@@ -19,7 +19,7 @@
 form {
   margin-top: 60px;
   display: block;
-  max-width: 40%;
+  max-width: 20%;
   margin: 0 auto;
   background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
@@ -46,6 +46,6 @@ label{
 
 @media (min-width:400px){
   form{
- width: 150%;
+ max-width: 40%;
 }
 }
