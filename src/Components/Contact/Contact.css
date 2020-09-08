@@ -19,17 +19,17 @@
 form {
   margin-top: 60px;
   display: block;
-  max-width: 60%;
+  width: 40%;
   margin: 0 auto;
   background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
 .form-group {
   margin-bottom: 1rem;
-  width: 90%;
-  margin: 0 auto;
-  display: block;
-  color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    color: white;
 }
 
 .btn {
@@ -44,8 +44,14 @@ label{
   margin-bottom: 5px;
 }
 
-@media (min-width:575px){
+@media (max-width:775px){
   form{
  max-width: 60%;
+}
+}
+
+@media (min-width:575px){
+  form{
+ max-width: 80%;
 }
 }
