@@ -77,6 +77,9 @@
   .texto a{
     max-width: 90%;
   }
+  .perfil{
+    margin-left: -30px;
+  }
 }
 
 
