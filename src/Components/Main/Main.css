@@ -62,6 +62,8 @@
   /* font-size: 180px; */
 }
 
+
+
 @media (max-width: 500px) {
   .title h1 {
     font-size: 40px;

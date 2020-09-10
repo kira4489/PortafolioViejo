@@ -6,22 +6,19 @@ import jhonatan from "../../pdf/jhonatan.pdf";
 class About extends Component {
   render() {
     return (
-  <section className="perfil" id="sobremi">
+      <section className="perfil" id="sobremi">
         <img src={foto} className="imagen" />
         <p className="texto3">Jhonatan Quirama Pino</p>
         <div className="texto">
           <p className="texto2">
-            Mi nombre es Jhonatan Quirama Pino tengo 28 años,Actualmente estoy
-            realizando un bootcamp de 9 semanas en academia geek,Soy Tambien
-            Tecnologo en gestion de redes de datos apasionado con la informatica
-            y la programacion, Mi otra pasion es jugar videojuegos y aprender nuevos lenguajes de programacion.
+            Mi nombre es Jhonatan Quirama Pino, tengo 28 años. Actualmente estoy
+            realizando un bootcamp de 9 semanas en Academia Geek. Soy tecnólogo
+            en gestión de redes de datos y técnico en Desarrollo de Software, me
+            apasiona la informática y la programación, me encantan los
+            videojuegos y aprender nuevas cosas todos los días.
           </p>
           <br />
           <br />
-          <p className="texto2">
-            En mi tiempo libre me gusta jugar videojuegos,hacer ejercicio, salir
-            con amigos,leer,estudiar y compartir con mi familia.
-          </p>
           <a href={jhonatan} target="_blank">
             Descargue mi hoja de vida
           </a>
