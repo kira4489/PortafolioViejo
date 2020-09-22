@@ -6,7 +6,7 @@ class Contact extends Component {
     return (
       <section className="formulario">
         <div className="formulario1" id="contacto">
-          <h2>Vamos a trajar juntos</h2>
+          <h2>Vamos a trabajar juntos</h2>
           <form>
             <div className="form-group">
               <label for="exampleInputEmail1">Nombre</label>
