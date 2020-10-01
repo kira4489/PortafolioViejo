@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./About.css";
 import foto from "../../images/me.jpg";
-import jhonatan from "../../pdf/jhonatan.pdf";
+import jhonatan from "../../pdf/jhonatan1.pdf";
 
 class About extends Component {
   render() {
