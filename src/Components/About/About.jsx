@@ -11,8 +11,8 @@ class About extends Component {
         <p className="texto3">Jhonatan Quirama Pino</p>
         <div className="texto">
           <p className="texto2">
-            Mi nombre es Jhonatan Quirama Pino, tengo 28 años. Actualmente estoy
-            realizando un bootcamp de 9 semanas en Academia Geek. Soy tecnólogo
+            Mi nombre es Jhonatan Quirama Pino, tengo 28 años. Egresado
+            de academia geek con enfasis en React/Node js. Soy tecnólogo
             en gestión de redes de datos y técnico en Desarrollo de Software, me
             apasiona la informática y la programación, me encantan los
             videojuegos y aprender nuevas cosas todos los días.
