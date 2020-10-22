@@ -43,6 +43,7 @@
   max-width: 20%;
   background-color: #ffa500;
   border: 1px solid #ffa500;
+  border-radius: 50px;
   color: white;
   /* margin-top: 50px; */
 }
@@ -67,6 +68,9 @@
   .descargar {
     margin-top: 20px;
     margin-bottom: 0px;
+  }
+  .texto a{
+    border-radius: 10px;
   }
 }
 
