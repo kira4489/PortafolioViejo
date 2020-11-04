@@ -7,7 +7,7 @@ class Contact extends Component {
       <section className="formulario">
         <div className="formulario1" id="contacto">
           <h2>Vamos a trabajar juntos</h2>
-          <form action="https://formspree.io/f/mgenavrv">
+          <form action="https://formspree.io/f/mgenavrv" method="POST">
             <div className="form-group">
               <label for="exampleInputEmail1">Nombre</label>
               <input
