@@ -31,11 +31,11 @@ class Contact extends Component {
               />
             </div>
             <div className="form-group">
-              <label for="exampleInputPassword1">Mensaje</label>
+              <label for="exampleInputPassword3">Mensaje</label>
               <textarea
                 type="text"
                 className="form-control"
-                id="exampleInputPassword1"
+                id="exampleInputPassword3"
               />
             </div>
             <button type="submit" className="btn btn-primary">
