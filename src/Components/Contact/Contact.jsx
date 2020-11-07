@@ -13,19 +13,19 @@ class Contact extends Component {
               <input
                 type="text"
                 className="form-control"
+                name="name"
                 placeholder="Escriba tu nombre"
-                id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 required
               />
             </div>
             <div className="form-group">
-              <label for="exampleInputEmail2">Email</label>
+              <label>Email</label>
               <input
                 type="email"
+                name="email"
                 className="form-control"
                 placeholder="Escriba tu email"
-                id="exampleInputEmail2"
                 aria-describedby="emailHelp"
                 required
               />
@@ -33,9 +33,9 @@ class Contact extends Component {
             <div className="form-group">
               <label for="exampleInputPassword3">Mensaje</label>
               <textarea
+              name="message"
                 type="text"
                 className="form-control"
-                id="exampleInputPassword3"
               />
             </div>
             <button type="submit" className="btn btn-primary">
