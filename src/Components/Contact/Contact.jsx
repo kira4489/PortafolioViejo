@@ -20,12 +20,12 @@ class Contact extends Component {
               />
             </div>
             <div className="form-group">
-              <label for="exampleInputEmail1">Email</label>
+              <label for="exampleInputEmail2">Email</label>
               <input
                 type="email"
                 className="form-control"
                 placeholder="Escriba tu email"
-                id="exampleInputEmail1"
+                id="exampleInputEmail2"
                 aria-describedby="emailHelp"
                 required
               />
