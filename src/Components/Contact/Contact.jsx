@@ -7,35 +7,35 @@ class Contact extends Component {
       <section className="formulario">
         <div className="formulario1" id="contacto">
           <h2>Vamos a trabajar juntos</h2>
-          <form>
+          <form action="https://formspree.io/f/mgenavrv" method="POST">
             <div className="form-group">
               <label for="exampleInputEmail1">Nombre</label>
               <input
                 type="text"
                 className="form-control"
+                name="name"
                 placeholder="Escriba tu nombre"
-                id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 required
               />
             </div>
             <div className="form-group">
-              <label for="exampleInputEmail1">Email</label>
+              <label>Email</label>
               <input
                 type="email"
+                name="email"
                 className="form-control"
                 placeholder="Escriba tu email"
-                id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 required
               />
             </div>
             <div className="form-group">
-              <label for="exampleInputPassword1">Mensaje</label>
+              <label for="exampleInputPassword3">Mensaje</label>
               <textarea
+              name="message"
                 type="text"
                 className="form-control"
-                id="exampleInputPassword1"
               />
             </div>
             <button type="submit" className="btn btn-primary">
