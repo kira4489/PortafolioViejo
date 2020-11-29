@@ -5,7 +5,9 @@ import Proyecto2 from "../../images/surveyform.jpg";
 import Proyecto3 from "../../images/landinpage.jpg";
 import Proyecto4 from "../../images/documentpage.jpg";
 import Proyecto5 from "../../images/landing-podcast.jpg";
-import Proyecto6 from "../../images/challenge.jpg"
+import Proyecto6 from "../../images/superhero.jpg";
+import Proyecto7 from "../../images/educationapp.jpg";
+import Proyecto8 from "../../images/burger.jpg";
 import Array from "./Array";
 
 export default class Project extends Component {
@@ -39,10 +41,20 @@ export default class Project extends Component {
           link: "https://modest-blackwell-7529ee.netlify.app/",
         },
         {
-          titulo: "Challenge",
+          titulo: "Super Hero",
           imagen: Proyecto6,
-          link: "https://eloquent-dubinsky-a02ef0.netlify.app/",
-        }
+          link: "https://superhero.kira4489.vercel.app/",
+        },
+        {
+          titulo: "Education App",
+          imagen: Proyecto7,
+          link: "https://final-project-livid.vercel.app/",
+        },
+        {
+          titulo: "Burger Quiz",
+          imagen: Proyecto8,
+          link: "https://burger-quiz.vercel.app/",
+        },
       ]
     } 
     }

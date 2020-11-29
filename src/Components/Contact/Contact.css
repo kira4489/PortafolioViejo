@@ -21,26 +21,28 @@ form {
   display: block;
   width: 40%;
   margin: 0 auto;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  border: 1px solid #000000;
+  /* background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
 }
 
 .form-group {
   margin-bottom: 1rem;
-    width: 80%;
-    margin: 0 auto;
-    display: block;
-    color: white;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  color: #000000;
 }
 
 .btn {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-label{
+label {
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
@@ -50,8 +52,8 @@ label{
 }
 } */
 
-@media (max-width:575px){
-  form{
- width: 80%;
-}
+@media (max-width: 575px) {
+  form {
+    width: 80%;
+  }
 }
