@@ -35,7 +35,7 @@ class Header extends Component {
               <a href="#inicio">Inicio</a>
             </li>
             <li>
-              <a href="#sobremi">Sobremi</a>
+              <a href="#sobremi">Sobre mi</a>
             </li>
             <li>
               <a href="#projects">Proyectos</a>
