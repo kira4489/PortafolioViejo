@@ -14,7 +14,7 @@ class Contact extends Component {
                 type="text"
                 className="form-control"
                 name="name"
-                placeholder="Escriba tu nombre"
+                placeholder="Ingrese su nombre"
                 aria-describedby="emailHelp"
                 required
               />
@@ -25,7 +25,7 @@ class Contact extends Component {
                 type="email"
                 name="email"
                 className="form-control"
-                placeholder="Escriba tu email"
+                placeholder="Ingrese su email"
                 aria-describedby="emailHelp"
                 required
               />
@@ -35,6 +35,7 @@ class Contact extends Component {
               <textarea
               name="message"
                 type="text"
+                placeholder="Ingrese su mensaje"
                 className="form-control"
               />
             </div>

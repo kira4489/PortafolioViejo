@@ -62,6 +62,17 @@
   /* font-size: 180px; */
 }
 
+h4{
+  color: #ffff;
+}
+
+.skill > .fab:hover{
+  /* -webkit-box-shadow: 7px 13px 20px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 13px 20px 3px rgba(0,0,0,0.75);
+  box-shadow: 7px 13px 20px 3px rgba(0,0,0,0.75); */
+  transform: scale(1.3);
+  transition: transform .5s;
+}
 
 
 @media (max-width: 500px) {

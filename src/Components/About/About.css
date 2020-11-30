@@ -16,6 +16,7 @@
 }
 
 .cajaimagen {
+  margin-top: -50px;
   width: fit-content;
 }
 
@@ -46,7 +47,7 @@
 }
 
 .description {
-  color: gray;
+  color: #fff;
   padding: 1rem 0;
   font-size: 1.2em;
 }
@@ -57,7 +58,7 @@
   margin: 0 auto;
   width: fit-content;
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
   background-color: #ffa500;
   border: 1px solid #ffa500;
@@ -76,6 +77,7 @@
   
   .cajaimagen,
   .Pruebatexto {
+    margin-top: 10px;
     width: 100%;
     padding: 1rem 2rem;
   }
