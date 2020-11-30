@@ -39,7 +39,7 @@ class Contact extends Component {
                 className="form-control"
               />
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn">
               Enviar
             </button>
           </form>
