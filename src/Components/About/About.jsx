@@ -19,7 +19,7 @@ class About extends Component {
           apasiona la informática y la programación, me encantan los
           videojuegos y aprender nuevas cosas todos los días.
           <a href={jhonatan} target="_blank">
-          Descargue mi hoja de vida
+         Ver mi hoja de vida
         </a>
         </p>
         <br />
