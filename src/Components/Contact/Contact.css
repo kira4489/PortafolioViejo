@@ -21,9 +21,9 @@ form {
   display: block;
   width: 40%;
   margin: 0 auto;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   /* background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
-  background: #3b83bd;
+  background: #86bbd8;
 }
 
 .form-group {
