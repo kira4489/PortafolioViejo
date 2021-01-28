@@ -36,6 +36,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: calc(100% - 50px);
   /* padding: 20px; */
   /* margin-top: 150px; */
 }
