@@ -7,10 +7,9 @@ class About extends Component {
   render() {
     return (
       <section class="perfil" id="sobremi">
-      <div class="cajaimagen">
+      <div className="container">
       <img src={foto} class="imagen" />
-      </div>
-      <div class="Pruebatexto">
+      <div class="texto">
       <p class="title1">Jhonatan Quirama Pino</p>
         <p class="description">
           Mi nombre es Jhonatan Quirama Pino, tengo 28 años. Egresado
@@ -24,6 +23,7 @@ class About extends Component {
         </p>
         <br />
         <br />
+       </div>
        </div>
     </section>
     );

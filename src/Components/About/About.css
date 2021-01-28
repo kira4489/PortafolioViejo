@@ -15,12 +15,17 @@
   background-color: #000;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
 .cajaimagen {
   margin-top: -50px;
   width: fit-content;
 }
 
-.Pruebatexto {
+.texto {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -50,6 +55,7 @@
   color: #fff;
   padding: 1rem 0;
   font-size: 1.2em;
+  text-align: justify;
 }
 
 .description a {
@@ -74,9 +80,12 @@
     gap: 1rem;
     background-color: #000;
   }
-  
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
   .cajaimagen,
-  .Pruebatexto {
+  .texto {
     margin-top: 10px;
     width: 100%;
     padding: 1rem 2rem;

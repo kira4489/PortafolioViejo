@@ -1,16 +1,16 @@
 import React from "react";
 
-export default function Array(props) {
+export default function Array({imagen,link,titulo}) {
   return (
     <div className="contenedor">
       <div className="cuadro">
         <picture>
-          <img src={props.imagen}/>
+          <img src={imagen}/>
           <a
-            href={props.link}
+            href={link}
             target="_blank noopener noreferrer"
           >
-            {props.titulo}
+            {titulo}
           </a>
         </picture>
       </div>
