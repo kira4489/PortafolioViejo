@@ -36,7 +36,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: calc(100% - 50px);
+  width: calc(100% - 60px);
+  margin: 2rem;
   /* padding: 20px; */
   /* margin-top: 150px; */
 }
