@@ -1,8 +1,12 @@
 .imagen {
   background-image: url(../../images/portatil.jpg);
   height: 100vh;
+  width: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
   opacity: 0.8;
+  /* object-fit: contain; */
   background-position: center;
   position: relative;
 }

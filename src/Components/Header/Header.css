@@ -1,4 +1,4 @@
-#navbar{
+/* #navbar{
   width: 100%;
   z-index: 999;
   position: fixed;
@@ -25,5 +25,46 @@
 
 address,dl,ol,ul{
   margin-bottom: 0;
+} */
+
+.contenedor12{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
 }
 
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  /* padding: 0; */
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+
+.logo{
+  height: 70px;
+  color: #ffffff;
+}
+
+.fas.fa-code {
+  padding: 15px;
+  font-size: 2rem;
+}
+
+.enlaces li{
+  list-style: none;
+  display: inline-block;
+}
+
+.enlaces a{
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
