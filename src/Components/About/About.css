@@ -73,7 +73,7 @@
   padding: .2rem 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .perfil {
     flex-direction: column;
     padding: 60px 0;
