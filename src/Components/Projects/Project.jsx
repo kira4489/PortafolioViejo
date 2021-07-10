@@ -9,12 +9,8 @@ import Proyecto6 from "../../images/burger.jpg";
 import Proyecto7 from "../../images/landingpage.jpg";
 import Array from "./Array";
 
-export default class Project extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      cards: [
-        {
+const Project = () => {
+      const cards = [{
           titulo: "Survey form",
           imagen: Proyecto1,
           link: "https://hardcore-goldberg-1a390b.netlify.app/",
@@ -50,18 +46,16 @@ export default class Project extends Component {
           link: "https://determined-boyd-d73ec1.netlify.app/",
         },
       ]
-    } 
-    }
-  render() {
     return (
       <div className="proyectos" id="projects">
         <h2>Proyectos</h2>
         <div className="retos">
-          {this.state.cards.map((card, index) => {
+          {cards.map((card, index) => {
             return <Array key={index} titulo={card.titulo} imagen={card.imagen} link={card.link}/>;
           })}
         </div>
       </div>
     );
   }
-}
+
+export default Project

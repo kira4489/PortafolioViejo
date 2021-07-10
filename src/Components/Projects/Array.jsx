@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Array({imagen,link,titulo}) {
+const Array = ({imagen,link,titulo})=> {
   return (
     <div className="contenedor">
       <div className="cuadro">
@@ -17,3 +17,5 @@ export default function Array({imagen,link,titulo}) {
     </div>
   );
 }
+
+export default Array

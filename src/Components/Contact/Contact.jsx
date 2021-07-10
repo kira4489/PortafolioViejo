@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./Contact.css";
 
-class Contact extends Component {
-  render() {
+const Contact = () => {
     return (
       <section className="formulario">
         <div className="formulario1" id="contacto">
@@ -46,7 +45,6 @@ class Contact extends Component {
         </div>
       </section>
     );
-  }
 }
 
 export default Contact;

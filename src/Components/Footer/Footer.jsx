@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Footer.css"
-class Footer extends Component{
-    render(){
+
+const Footer = () =>{
         return(
             <footer>
             <div className="titulo1">
@@ -31,7 +31,6 @@ class Footer extends Component{
             </div>
           </footer>
         )
-    }
 }
 
 export default Footer

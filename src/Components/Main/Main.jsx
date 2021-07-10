@@ -4,8 +4,7 @@ import Project from "../Projects/Project";
 import "./Main.css";
 import Contact from "../Contact/Contact";
 
-class Main extends Component {
-  render() {
+const Main = ()=> {
     return (
       <main>
         <section className="imagen" id="inicio">
@@ -48,7 +47,6 @@ class Main extends Component {
         <Contact />
       </main>
     );
-  }
 }
 
 export default Main;

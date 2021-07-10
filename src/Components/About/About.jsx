@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "./About.css";
 import foto from "../../images/me.jpg";
 import jhonatan from "../../pdf/Jhonatan.pdf";
 
-class About extends Component {
-  render() {
+const About = () =>{
     return (
       <section className="perfil" id="sobremi">
       <div className="container">
@@ -27,7 +26,6 @@ class About extends Component {
        </div>
     </section>
     );
-  }
 }
 
 export default About;
