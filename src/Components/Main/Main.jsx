@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import "./Main.css";
 import About from "../About/About";
 import Project from "../Projects/Project";
-import "./Main.css";
+import Experience from "../Experience/Experience";
 import Contact from "../Contact/Contact";
 
 const Main = ()=> {
@@ -44,6 +45,7 @@ const Main = ()=> {
         </section>
         <About />
         <Project />
+        <Experience/>
         <Contact />
       </main>
     );

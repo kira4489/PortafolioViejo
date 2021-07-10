@@ -1,0 +1,27 @@
+.container-experience {
+  padding: 60px;
+  background-image: linear-gradient(
+    to right top,
+    #376c71,
+    #39717d,
+    #3d778a,
+    #467b96,
+    #537fa1
+  );
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-title h2 {
+  margin-bottom: 40px;
+}
+
+.paragraph-company {
+  margin-top: 5px;
+  padding: 10px;
+}
