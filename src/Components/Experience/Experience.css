@@ -1,13 +1,6 @@
 .container-experience {
   padding: 60px;
-  background-image: linear-gradient(
-    to right top,
-    #376c71,
-    #39717d,
-    #3d778a,
-    #467b96,
-    #537fa1
-  );
+  background-color: #00C9C8;
 }
 
 .container-title {
