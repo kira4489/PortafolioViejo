@@ -21,11 +21,11 @@ const Main = ()=> {
   },
   {
     icon: "fab fa-react",
-    language: "react"
+    language: "React"
   },
   {
     icon: "fab fa-git-square",
-    language: "git"
+    language: "Git"
   }
 ]
 
