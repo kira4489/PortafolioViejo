@@ -5,7 +5,7 @@ const Array = ({imagen,link,titulo})=> {
     <div className="contenedor">
       <div className="cuadro">
         <picture>
-          <img src={imagen}/>
+          <img src={imagen} alt="proyectos"/>
           <a
             href={link}
             target="_blank noopener noreferrer"

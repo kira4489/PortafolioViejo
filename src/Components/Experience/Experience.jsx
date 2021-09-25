@@ -3,8 +3,8 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <div class="container-experience">
-      <div class="container-title" id="experience">
+    <div className="container-experience">
+      <div className="container-title" id="experience">
         <h2>Desarrollador front-end</h2>
         <ul>
           <li>Desarrollo de aplicaciones web</li>

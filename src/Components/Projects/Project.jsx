@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Project.css";
 import Proyecto1 from "../../images/surveyform.jpg";
 import Proyecto2 from "../../images/documentpage.jpg";
