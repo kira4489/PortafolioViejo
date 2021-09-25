@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Me from "../../images/me.jpg";
-import jhonatan from "../../pdf/Jhonatan.pdf";
+import jhonatanQ from "../../pdf/JhonatanQ.pdf";
 
 const About = () =>{
     return (
@@ -16,7 +16,7 @@ const About = () =>{
           en gestión de redes de datos y técnico en Desarrollo de Software, me
           apasiona la informática y la programación, me encantan los
           videojuegos y aprender nuevas cosas todos los días.
-          <a href={jhonatan} target="_blank" rel="noopener noreferrer">
+          <a href={jhonatanQ} target="_blank" rel="noopener noreferrer">
          Ver mi hoja de vida
         </a>
         </p>
