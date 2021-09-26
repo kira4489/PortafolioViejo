@@ -10,7 +10,7 @@
 }
 
 .scroll-fa {
-  width:  90px;
+  font-size:  40px;
   background-color: #212f3d;
   color: white;
   cursor: pointer;
@@ -20,6 +20,6 @@
 
 @media screen and (max-width:500px) {
     .scroll-fa{
-     width: 40px;
+     font-size: 10px;
     }
 }
