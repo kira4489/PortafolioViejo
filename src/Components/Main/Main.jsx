@@ -4,6 +4,7 @@ import About from "../About/About";
 import Project from "../Projects/Project";
 import Experience from "../Experience/Experience";
 import Contact from "../Contact/Contact";
+import ScrollToUp from "../ScrollToUp/ScrollToup"
 
 const Main = ()=> {
   const skills =[
@@ -52,6 +53,7 @@ const Main = ()=> {
         <About />
         <Project />
         <Experience/>
+        <ScrollToUp/>
         <Contact />
       </main>
     );
