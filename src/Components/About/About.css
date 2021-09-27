@@ -91,3 +91,9 @@
     padding: 1rem 2rem;
   }
 }
+
+@media  screen and (max-width:500px) {
+  .title1{
+    text-align: center;
+  }
+}
