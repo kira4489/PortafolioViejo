@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div className="container-experience">
       <div className="container-title" id="experience">
-        <h2>Desarrollador front-end</h2>
+        <h2>Desarrollador Frontend</h2>
         <ul>
           <li>Desarrollo de aplicaciones web React js</li>
           <li>Maquetacion de paginas web React,Vue js</li>
