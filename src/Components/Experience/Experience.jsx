@@ -7,8 +7,8 @@ const Experience = () => {
       <div className="container-title" id="experience">
         <h2>Desarrollador front-end</h2>
         <ul>
-          <li>Desarrollo de aplicaciones web</li>
-          <li>Maquetacion de paginas web</li>
+          <li>Desarrollo de aplicaciones web React js</li>
+          <li>Maquetacion de paginas web React,Vue js</li>
           <li>Responsive web</li>
           <li> Uso de la terminal git</li>
           <li>Software colaborativo Github y Gitlab</li>  
@@ -17,7 +17,7 @@ const Experience = () => {
           <strong>Empresa:</strong> Devip SAS
         </p>
         <p>
-          <strong>Periodo:</strong> 3 de marzo - Actualidad
+          <strong>Periodo:</strong> 3 de marzo 2021 - 4 de octubre 2021
         </p>
       </div>
     </div>
