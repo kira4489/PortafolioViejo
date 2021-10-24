@@ -8,9 +8,11 @@ const Experience = () => {
         <h2>Desarrollador Frontend</h2>
         <ul>
           <li>Desarrollo de aplicaciones web React js</li>
-          <li>Maquetacion de paginas web React,Vue js</li>
+          <li>Desarrollo de aplicaciones web Vue js</li>
+          <li>Maquetacion de paginas web React</li>
+          <li>Maquetacion de paginas web Vue js</li>
           <li>Responsive web</li>
-          <li> Uso de la terminal git</li>
+          <li>Uso de la terminal git</li>
           <li>Software colaborativo Github y Gitlab</li>  
         </ul>
         <p className="paragraph-company">
