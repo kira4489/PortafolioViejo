@@ -6,7 +6,7 @@ const Footer = () =>{
         return(
             <footer>
             <div className="titulo1">
-              <p>© 2021 - Hecho por Jhonatan Quirama Pino </p>
+              <p>© 2022 - Hecho por Jhonatan Quirama Pino </p>
               <div className="redes-footer">
                 <a
                   href="https://www.facebook.com/jhonatan.quiramapino"
