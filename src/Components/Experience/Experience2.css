@@ -1,0 +1,29 @@
+.container2-experience {
+    padding: 60px;
+    background-color: #d32f2f;
+  }
+  
+.container2-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container2-title h2 {
+    margin-bottom: 30px;
+  }
+
+.container2-experience ul{
+  margin-bottom: 20px;
+}
+
+  .container2-title li{
+    width: 300px;
+  }
+  
+  .paragraph2-company {
+    margin-top: 5px;
+    padding: 10px;
+  }
+  
