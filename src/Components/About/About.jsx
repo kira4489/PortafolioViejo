@@ -11,9 +11,8 @@ const About = () => {
         <div className="texto">
           <p className="title1">Jhonatan Quirama Pino</p>
           <p className="description">
-            Mi nombre es Jhonatan Quirama Pino, tengo 29 años. Egresado de
-            academia geek con enfasis en React/Node js. Soy tecnólogo en gestión
-            de redes de datos y técnico en Desarrollo de Software, me apasiona
+            Mi nombre es Jhonatan Quirama Pino, tengo 30 años. Egresado de
+            academia geek con enfasis en React/Node js. Actualmente Trabajo en el cargo de Ingeniero en Soporte Devops. Soy Tecnologo en gestión de redes de datos y técnico en Desarrollo de Software, me apasiona
             la informática y la programación, me encantan los videojuegos y
             aprender nuevas cosas todos los días.
             <a href={jhonatanQ} target="_blank" rel="noopener noreferrer">
