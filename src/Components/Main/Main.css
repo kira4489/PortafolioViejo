@@ -1,0 +1,108 @@
+.imagen {
+  background-image: url(../../images/portatil.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  opacity: 0.8;
+  /* object-fit: contain; */
+  background-position: center;
+  position: relative;
+}
+
+.imagen::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.title {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  /* border: 5px solid; */
+}
+
+.title h1 {
+  color: #ffa500;
+  font-size: 60px;
+  text-align: center;
+}
+
+.title p {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container6{
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill {
+  padding: 10px;
+}
+
+.skill > .fab {
+  font-size: 3.5em;
+  color: #ffa500;
+}
+
+.fab,
+.far {
+  font-weight: 400;
+  /* font-size: 180px; */
+}
+
+h4{
+  color: #ffff;
+}
+
+.skill > .fab:hover{
+  /* -webkit: 7px 13px 20px 3px rgba(0,0,0,0.75);
+   -moz-box-shadow: 7px 13px 20px 3px rgba(0,0,0,0.75); */
+  /* box-shadow: 7px 13px 20px 3px rgba(0,0,0,0.75);  */
+  transform: scale(1.3);
+  transition: transform .5s;
+}
+
+
+@media (max-width: 500px) {
+  .title h1 {
+    font-size: 40px;
+  }
+  .title p {
+    font-size: 30px;
+  }
+  .skill > .fab {
+    font-size: 2.5em;
+  }
+  .titulo1 p {
+    margin: 0 auto;
+  }
+  .redes-footer {
+    margin: 0 auto;
+  }.imagen{
+    max-width: 100%;
+    height: 500px;
+  }
+}

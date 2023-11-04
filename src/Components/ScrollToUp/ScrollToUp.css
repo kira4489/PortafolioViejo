@@ -1,0 +1,25 @@
+.scroll-to-top {
+  opacity: 1;
+  position: relative;
+}
+
+.scroll-to-top-absolute {
+  position: fixed;
+  left: 90%;
+  top: 60%;
+}
+
+.scroll-fa {
+  font-size:  40px;
+  background-color: #212f3d;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 55%;
+}
+
+@media screen and (max-width:500px) {
+    .scroll-fa{
+     font-size: 10px;
+    }
+}
